@@ -1,4 +1,5 @@
 import LearnLink from "@/components/LearnLink";
+import LearnUseRouter from "@/components/LearnUseRouter";
 
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
       Hello next js
       <hr/>
 
-      <LearnLink />
+      {/* <LearnLink /> */}
+      <LearnUseRouter />
 
 
 
