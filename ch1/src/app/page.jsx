@@ -1,4 +1,5 @@
 import LearnLink from "@/components/LearnLink";
+import LearnUseGlobalCSS from "@/components/LearnUseGlobalCSS";
 import LearnUseRouter from "@/components/LearnUseRouter";
 
 
@@ -9,7 +10,8 @@ export default function Home() {
       <hr/>
 
       {/* <LearnLink /> */}
-      <LearnUseRouter />
+      {/* <LearnUseRouter /> */}
+      <LearnUseGlobalCSS />
 
 
 
