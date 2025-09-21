@@ -18,7 +18,8 @@ export default function Home() {
       {/* <LearnCSSModule /> */}
       {/* <LearnUseImage /> */}
 
-      <LearnServerComponent />
+      {/* <LearnServerComponent /> */}
+      
 
 
 
