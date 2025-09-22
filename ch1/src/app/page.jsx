@@ -1,4 +1,6 @@
+import LearnClientComponent from "@/components/LearnClientComponent";
 import LearnCSSModule from "@/components/LearnCSSModule";
+import LearnForm from "@/components/LearnForm";
 import LearnLink from "@/components/LearnLink";
 import LearnServerComponent from "@/components/LearnServerComponent";
 import LearnUseGlobalCSS from "@/components/LearnUseGlobalCSS";
@@ -19,9 +21,11 @@ export default function Home() {
       {/* <LearnUseImage /> */}
 
       {/* <LearnServerComponent /> */}
+      {/* <LearnClientComponent /> */}
+
+      <LearnForm />
+
       
-
-
 
 
     </main>
