@@ -1,5 +1,6 @@
 import LearnClientComponent from "@/components/LearnClientComponent";
 import LearnCSSModule from "@/components/LearnCSSModule";
+import LearnDataFetching from "@/components/LearnDataFetching";
 import LearnForm from "@/components/LearnForm";
 import LearnForm1 from "@/components/LearnForm1";
 import LearnForm2 from "@/components/LearnForm2";
@@ -27,7 +28,10 @@ export default function Home() {
 
       {/* <LearnForm /> */}
       {/* <LearnForm1 /> */}
-      <LearnForm2 />
+      {/* <LearnForm2 /> */}
+
+      <LearnDataFetching />
+      
 
       
 
