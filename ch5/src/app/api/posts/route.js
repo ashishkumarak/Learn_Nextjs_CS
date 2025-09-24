@@ -8,7 +8,6 @@ export async function GET(req){
     await connectDB(); // call to make connection
     const result = await PostModel.find(); // fetching all data from DB
     return NextResponse.json({"Result" : result} , {status: 200});
-
     
 
   } catch (error) {  
