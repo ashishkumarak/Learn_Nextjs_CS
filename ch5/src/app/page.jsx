@@ -1,6 +1,7 @@
 import GetData1 from "@/components/GetData1";
 import GetData2 from "@/components/GetData2";
 import PostData1 from "@/components/PostData1";
+import PostData2 from "@/components/PostData2";
 
 
 export default function Home() {
@@ -13,10 +14,8 @@ export default function Home() {
       {/* <PostData1 /> */}
       {/* <GetData1 /> */}
 
-      <GetData2 />
-
-
-
+      {/* <GetData2 /> */}
+      <PostData2 />
 
     </div>
   );
