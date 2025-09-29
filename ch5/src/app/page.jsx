@@ -1,4 +1,5 @@
 import GetData1 from "@/components/GetData1";
+import GetData2 from "@/components/GetData2";
 import PostData1 from "@/components/PostData1";
 
 
@@ -9,8 +10,10 @@ export default function Home() {
       <h1> Mongo DB Integration</h1>
       <br />
 
-      <PostData1 />
-      <GetData1 />
+      {/* <PostData1 /> */}
+      {/* <GetData1 /> */}
+
+      <GetData2 />
 
 
 
